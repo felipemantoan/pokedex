@@ -47,7 +47,6 @@ func getPokemon(search string) {
 }
 
 func main() {
-	fmt.Println("hello world :)")
 	go getPokemon("pikachu")
 	go getPokemon("bulbasaur")
 	go getPokemon("charmander")
